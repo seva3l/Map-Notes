@@ -1,0 +1,199 @@
+{
+  "buildFiles": [
+    "/Users/dreitech/techExam/MapNotes/node_modules/@rnmapbox/maps/android/build/generated/source/codegen/jni/CMakeLists.txt",
+    "/Users/dreitech/techExam/MapNotes/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt",
+    "/Users/dreitech/techExam/MapNotes/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
+    "/Users/dreitech/techExam/MapNotes/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
+    "/Users/dreitech/techExam/MapNotes/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt",
+    "/Users/dreitech/techExam/MapNotes/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/dreitech/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/dreitech/techExam/MapNotes/android/app/.cxx/Debug/1i192555/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/dreitech/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/dreitech/techExam/MapNotes/android/app/.cxx/Debug/1i192555/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "appmodules::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "appmodules",
+      "output": "/Users/dreitech/techExam/MapNotes/android/app/build/intermediates/cxx/Debug/1i192555/obj/x86_64/libappmodules.so",
+      "runtimeFiles": [
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/fabricjni/libs/android.x86_64/libfabricjni.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/mapbufferjni/libs/android.x86_64/libmapbufferjni.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_newarchdefaults/libs/android.x86_64/libreact_newarchdefaults.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/rrc_textinput/libs/android.x86_64/librrc_textinput.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/rrc_legacyviewmanagerinterop/libs/android.x86_64/librrc_legacyviewmanagerinterop.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/runtimeexecutor/libs/android.x86_64/libruntimeexecutor.so",
+        "/Users/dreitech/techExam/MapNotes/android/app/build/intermediates/cxx/Debug/1i192555/obj/x86_64/libreact_codegen_rnmapbox_maps_specs.so",
+        "/Users/dreitech/techExam/MapNotes/android/app/build/intermediates/cxx/Debug/1i192555/obj/x86_64/libreact_codegen_rngesturehandler_codegen.so",
+        "/Users/dreitech/techExam/MapNotes/android/app/build/intermediates/cxx/Debug/1i192555/obj/x86_64/libreact_codegen_safeareacontext.so",
+        "/Users/dreitech/techExam/MapNotes/android/app/build/intermediates/cxx/Debug/1i192555/obj/x86_64/libreact_codegen_rnscreens.so",
+        "/Users/dreitech/techExam/MapNotes/android/app/build/intermediates/cxx/Debug/1i192555/obj/x86_64/libreact_codegen_rnsvg.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/04b8a56aa4f5b9d03bcc0e632b9e3643/transformed/fbjni-0.6.0/prefab/modules/fbjni/libs/android.x86_64/libfbjni.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/folly_runtime/libs/android.x86_64/libfolly_runtime.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/glog/libs/android.x86_64/libglog.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/jsi/libs/android.x86_64/libjsi.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_codegen_rncore/libs/android.x86_64/libreact_codegen_rncore.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_debug/libs/android.x86_64/libreact_debug.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_utils/libs/android.x86_64/libreact_utils.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_nativemodule_core/libs/android.x86_64/libreact_nativemodule_core.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_componentregistry/libs/android.x86_64/libreact_render_componentregistry.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_core/libs/android.x86_64/libreact_render_core.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_debug/libs/android.x86_64/libreact_render_debug.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_graphics/libs/android.x86_64/libreact_render_graphics.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_imagemanager/libs/android.x86_64/libreact_render_imagemanager.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_mapbuffer/libs/android.x86_64/libreact_render_mapbuffer.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/rrc_image/libs/android.x86_64/librrc_image.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/rrc_view/libs/android.x86_64/librrc_view.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/turbomodulejsijni/libs/android.x86_64/libturbomodulejsijni.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/yoga/libs/android.x86_64/libyoga.so"
+      ]
+    },
+    "react_codegen_rngesturehandler_codegen::@39f233abcd2c728bc6ec": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "react_codegen_rngesturehandler_codegen",
+      "output": "/Users/dreitech/techExam/MapNotes/android/app/build/intermediates/cxx/Debug/1i192555/obj/x86_64/libreact_codegen_rngesturehandler_codegen.so",
+      "runtimeFiles": [
+        "/Users/dreitech/.gradle/caches/8.8/transforms/04b8a56aa4f5b9d03bcc0e632b9e3643/transformed/fbjni-0.6.0/prefab/modules/fbjni/libs/android.x86_64/libfbjni.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/folly_runtime/libs/android.x86_64/libfolly_runtime.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/glog/libs/android.x86_64/libglog.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/jsi/libs/android.x86_64/libjsi.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_codegen_rncore/libs/android.x86_64/libreact_codegen_rncore.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_debug/libs/android.x86_64/libreact_debug.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_nativemodule_core/libs/android.x86_64/libreact_nativemodule_core.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_componentregistry/libs/android.x86_64/libreact_render_componentregistry.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_core/libs/android.x86_64/libreact_render_core.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_debug/libs/android.x86_64/libreact_render_debug.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_graphics/libs/android.x86_64/libreact_render_graphics.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_imagemanager/libs/android.x86_64/libreact_render_imagemanager.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_mapbuffer/libs/android.x86_64/libreact_render_mapbuffer.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_utils/libs/android.x86_64/libreact_utils.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/rrc_image/libs/android.x86_64/librrc_image.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/rrc_view/libs/android.x86_64/librrc_view.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/turbomodulejsijni/libs/android.x86_64/libturbomodulejsijni.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/yoga/libs/android.x86_64/libyoga.so"
+      ]
+    },
+    "react_codegen_rnmapbox_maps_specs::@636de9d518b8c337676e": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "react_codegen_rnmapbox_maps_specs",
+      "output": "/Users/dreitech/techExam/MapNotes/android/app/build/intermediates/cxx/Debug/1i192555/obj/x86_64/libreact_codegen_rnmapbox_maps_specs.so",
+      "runtimeFiles": [
+        "/Users/dreitech/.gradle/caches/8.8/transforms/04b8a56aa4f5b9d03bcc0e632b9e3643/transformed/fbjni-0.6.0/prefab/modules/fbjni/libs/android.x86_64/libfbjni.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/folly_runtime/libs/android.x86_64/libfolly_runtime.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/glog/libs/android.x86_64/libglog.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/jsi/libs/android.x86_64/libjsi.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_codegen_rncore/libs/android.x86_64/libreact_codegen_rncore.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_debug/libs/android.x86_64/libreact_debug.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_nativemodule_core/libs/android.x86_64/libreact_nativemodule_core.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_componentregistry/libs/android.x86_64/libreact_render_componentregistry.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_core/libs/android.x86_64/libreact_render_core.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_debug/libs/android.x86_64/libreact_render_debug.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_graphics/libs/android.x86_64/libreact_render_graphics.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_imagemanager/libs/android.x86_64/libreact_render_imagemanager.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_mapbuffer/libs/android.x86_64/libreact_render_mapbuffer.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_utils/libs/android.x86_64/libreact_utils.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/rrc_image/libs/android.x86_64/librrc_image.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/rrc_view/libs/android.x86_64/librrc_view.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/turbomodulejsijni/libs/android.x86_64/libturbomodulejsijni.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/yoga/libs/android.x86_64/libyoga.so"
+      ]
+    },
+    "react_codegen_rnscreens::@25bcbd507e98d3a854ad": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "react_codegen_rnscreens",
+      "output": "/Users/dreitech/techExam/MapNotes/android/app/build/intermediates/cxx/Debug/1i192555/obj/x86_64/libreact_codegen_rnscreens.so",
+      "runtimeFiles": [
+        "/Users/dreitech/.gradle/caches/8.8/transforms/04b8a56aa4f5b9d03bcc0e632b9e3643/transformed/fbjni-0.6.0/prefab/modules/fbjni/libs/android.x86_64/libfbjni.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/folly_runtime/libs/android.x86_64/libfolly_runtime.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/glog/libs/android.x86_64/libglog.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/jsi/libs/android.x86_64/libjsi.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_codegen_rncore/libs/android.x86_64/libreact_codegen_rncore.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_debug/libs/android.x86_64/libreact_debug.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_nativemodule_core/libs/android.x86_64/libreact_nativemodule_core.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_core/libs/android.x86_64/libreact_render_core.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_debug/libs/android.x86_64/libreact_render_debug.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_graphics/libs/android.x86_64/libreact_render_graphics.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_mapbuffer/libs/android.x86_64/libreact_render_mapbuffer.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_componentregistry/libs/android.x86_64/libreact_render_componentregistry.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_utils/libs/android.x86_64/libreact_utils.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/rrc_view/libs/android.x86_64/librrc_view.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/turbomodulejsijni/libs/android.x86_64/libturbomodulejsijni.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/yoga/libs/android.x86_64/libyoga.so"
+      ]
+    },
+    "react_codegen_rnsvg::@4f40eb209d0c0b4a3b65": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "react_codegen_rnsvg",
+      "output": "/Users/dreitech/techExam/MapNotes/android/app/build/intermediates/cxx/Debug/1i192555/obj/x86_64/libreact_codegen_rnsvg.so",
+      "runtimeFiles": [
+        "/Users/dreitech/.gradle/caches/8.8/transforms/04b8a56aa4f5b9d03bcc0e632b9e3643/transformed/fbjni-0.6.0/prefab/modules/fbjni/libs/android.x86_64/libfbjni.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/folly_runtime/libs/android.x86_64/libfolly_runtime.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/glog/libs/android.x86_64/libglog.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/jsi/libs/android.x86_64/libjsi.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_codegen_rncore/libs/android.x86_64/libreact_codegen_rncore.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_debug/libs/android.x86_64/libreact_debug.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_nativemodule_core/libs/android.x86_64/libreact_nativemodule_core.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_core/libs/android.x86_64/libreact_render_core.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_debug/libs/android.x86_64/libreact_render_debug.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_graphics/libs/android.x86_64/libreact_render_graphics.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_mapbuffer/libs/android.x86_64/libreact_render_mapbuffer.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/rrc_image/libs/android.x86_64/librrc_image.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_componentregistry/libs/android.x86_64/libreact_render_componentregistry.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/rrc_view/libs/android.x86_64/librrc_view.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/turbomodulejsijni/libs/android.x86_64/libturbomodulejsijni.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/yoga/libs/android.x86_64/libyoga.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_imagemanager/libs/android.x86_64/libreact_render_imagemanager.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_utils/libs/android.x86_64/libreact_utils.so"
+      ]
+    },
+    "react_codegen_safeareacontext::@7984cd80db47aa7b952a": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "react_codegen_safeareacontext",
+      "output": "/Users/dreitech/techExam/MapNotes/android/app/build/intermediates/cxx/Debug/1i192555/obj/x86_64/libreact_codegen_safeareacontext.so",
+      "runtimeFiles": [
+        "/Users/dreitech/.gradle/caches/8.8/transforms/04b8a56aa4f5b9d03bcc0e632b9e3643/transformed/fbjni-0.6.0/prefab/modules/fbjni/libs/android.x86_64/libfbjni.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/folly_runtime/libs/android.x86_64/libfolly_runtime.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/glog/libs/android.x86_64/libglog.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/jsi/libs/android.x86_64/libjsi.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_codegen_rncore/libs/android.x86_64/libreact_codegen_rncore.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_debug/libs/android.x86_64/libreact_debug.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_nativemodule_core/libs/android.x86_64/libreact_nativemodule_core.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_core/libs/android.x86_64/libreact_render_core.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_debug/libs/android.x86_64/libreact_render_debug.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_graphics/libs/android.x86_64/libreact_render_graphics.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_mapbuffer/libs/android.x86_64/libreact_render_mapbuffer.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_render_componentregistry/libs/android.x86_64/libreact_render_componentregistry.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/react_utils/libs/android.x86_64/libreact_utils.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/rrc_view/libs/android.x86_64/librrc_view.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/turbomodulejsijni/libs/android.x86_64/libturbomodulejsijni.so",
+        "/Users/dreitech/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/prefab/modules/yoga/libs/android.x86_64/libyoga.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/dreitech/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/dreitech/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

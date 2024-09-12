@@ -1,79 +1,68 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Mapnotes App
 
-# Getting Started
+## Overview
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+Mapnotes is a mobile app developed using **React Native**, featuring an interactive map that allows users to create and manage notes with location data. The app integrates **Mapbox** for mapping features and **React Navigation** for seamless navigation between screens.
 
-## Step 1: Start the Metro Server
+## Features
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+- 📍 **Map-based Note Management**: View, add, and manage notes pinned on a map.
+- 🗺️ **Mapbox Integration**: Leverages Mapbox for rich mapping functionalities, including pinning notes with geographic coordinates.
+- 📝 **Note Creation and Editing**: Create notes with a title, description, and optional photo, linked to specific locations.
+- 🔗 **Seamless Navigation**: Uses React Navigation for easy screen transitions and state management.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+## Technologies
 
-```bash
-# using npm
-npm start
+- **React Native**: Core framework for mobile development.
+- **Mapbox**: Provides interactive map features for displaying notes with geographic locations.
+- **React Navigation**: Manages screen navigation and routing within the app.
 
-# OR using Yarn
-yarn start
-```
+## Setup & Installation
 
-## Step 2: Start your Application
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/seva3l/Map-Notes
+   cd mapnotes
+   ```
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+2. **Install Dependencies:**
+   Ensure you have Node.js and npm or yarn installed.
+   ```bash
+   yarn
+   ```
 
-### For Android
+3. **Configure Environment:**
+   Create an `.env` file in the root of your project and add your Mapbox token:
+   ```
+   MAPBOX_TOKEN=your_mapbox_access_token
+   ```
+   You can obtain a token from [https://account.mapbox.com/](https://account.mapbox.com/)
 
-```bash
-# using npm
-npm run android
+4. **Run the App:**
+   To run the app on an Android/iOS simulator:
+   ```bash
+   npx react-native run-android
+   ```
+   or
+   ```bash
+   npx react-native run-ios
+   ```
 
-# OR using Yarn
-yarn android
-```
+## Usage
 
-### For iOS
+- **Viewing Notes**: Notes will be displayed as markers on the map. Tap a marker to view the note details.
+- **Adding Notes**: Long press on the map to create a new note at the selected location.
+- **Editing Notes**: Open a note from the map and modify its details.
+- **Deleting Notes**: Remove notes by selecting them from the map and using the delete option.
 
-```bash
-# using npm
-npm run ios
+## Contributing
 
-# OR using Yarn
-yarn ios
-```
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+## License
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## Step 3: Modifying your App
+## Contact
 
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+If you have any questions, feel free to reach out to [sandrei.mangubat@gmail.com](mailto:your-email@example.com).

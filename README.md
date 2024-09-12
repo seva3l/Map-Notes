@@ -2,7 +2,7 @@
 
 ## Overview
 
-Mapnotes is a mobile app developed using **React Native**, featuring an interactive map that allows users to create and manage notes with location data. The app integrates **Mapbox** for mapping features and **React Navigation** for seamless navigation between screens.
+Mapnotes is a mobile app developed using **React Native**, featuring an interactive map that allows users to create and manage notes with location data. The app integrates **Mapbox** for mapping features, **React Navigation** for seamless navigation between screens, and **Firebase** for authentication and data storage.
 
 ## Features
 
@@ -10,12 +10,17 @@ Mapnotes is a mobile app developed using **React Native**, featuring an interact
 - 🗺️ **Mapbox Integration**: Leverages Mapbox for rich mapping functionalities, including pinning notes with geographic coordinates.
 - 📝 **Note Creation and Editing**: Create notes with a title, description, and optional photo, linked to specific locations.
 - 🔗 **Seamless Navigation**: Uses React Navigation for easy screen transitions and state management.
+- 🔐 **User Authentication**: Secure user authentication powered by Firebase Authentication.
+- 💾 **Cloud Storage**: Store and retrieve note data using Firestore, with images stored in Firebase Storage.
 
 ## Technologies
 
 - **React Native**: Core framework for mobile development.
 - **Mapbox**: Provides interactive map features for displaying notes with geographic locations.
 - **React Navigation**: Manages screen navigation and routing within the app.
+- **Firebase Authentication**: Handles user sign-up, login, and account management.
+- **Cloud Firestore**: NoSQL cloud database to store and sync note data.
+- **Firebase Storage**: Cloud storage for user-generated content like images.
 
 ## Setup & Installation
 
@@ -32,11 +37,12 @@ Mapnotes is a mobile app developed using **React Native**, featuring an interact
    ```
 
 3. **Configure Environment:**
-   Create an `.env` file in the root of your project and add your Mapbox token:
+   Create an `.env` file in the root of your project and add your Mapbox and Firebase configuration:
    ```
    MAPBOX_TOKEN=your_mapbox_access_token
    ```
-   You can obtain a token from [https://account.mapbox.com/](https://account.mapbox.com/)
+   You can obtain a Mapbox token from [https://account.mapbox.com/](https://account.mapbox.com/)
+   Firebase configuration can be found in your Firebase project settings.
 
 4. **Run the App:**
    To run the app on an Android/iOS simulator:
@@ -50,10 +56,18 @@ Mapnotes is a mobile app developed using **React Native**, featuring an interact
 
 ## Usage
 
+- **Authentication**: Sign up or log in using your email and password.
 - **Viewing Notes**: Notes will be displayed as markers on the map. Tap a marker to view the note details.
-- **Adding Notes**: Long press on the map to create a new note at the selected location.
-- **Editing Notes**: Open a note from the map and modify its details.
-- **Deleting Notes**: Remove notes by selecting them from the map and using the delete option.
+- **Adding Notes**: Long press on the map to create a new note at the selected location. Add a title, description, and optionally upload an image.
+- **Editing Notes**: Open a note from the map and modify its details. Changes will be automatically synced to Firestore.
+- **Deleting Notes**: Remove notes by selecting them from the map and using the delete option. This will remove the note from Firestore and any associated image from Firebase Storage.
+
+## Firebase Setup
+
+1. Create a new Firebase project at [https://console.firebase.google.com/](https://console.firebase.google.com/)
+2. Enable Authentication, Firestore, and Storage in the Firebase console.
+3. Set up security rules for Firestore and Storage to ensure data protection.
+4. Add your Firebase configuration to the `.env` file as shown in the Setup & Installation section.
 
 ## Contributing
 

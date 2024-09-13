@@ -4,7 +4,7 @@ import { useNavigation } from '@react-navigation/native';
 import { AuthStackParamList } from '@navigation/AuthStack';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { StackParamList } from '@navigation/StackNavigator';
-import { storeToken } from '@utils/asyncStorage';
+import { storeToken, removeToken } from '@utils/asyncStorage';
 
 const errorMessages: { [key: string]: string } = {
   'auth/email-already-in-use': 'This email is already registered. Please use a different email.',
@@ -68,6 +68,8 @@ export const useAuth = () => {
     try {
       await auth().signOut();
       setUser(null);
+      await removeToken('user');
+      await removeToken('userId');
       stackNavigation.navigate('Auth');
     } catch (e: any) {
       setError(e.message);
